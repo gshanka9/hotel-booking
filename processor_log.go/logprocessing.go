@@ -60,7 +60,7 @@ func errorLogHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		if entry.Level == "error" {
 			baseFile := filepath.Base(entry.File)
-			finalPath := "hotel_booking/" + baseFile
+			finalPath := "hotel-booking/microservice/controller/" + baseFile
 			entry.Author = getAuthor(finalPath, entry.Line)
 			entry.Line = entry.Line - 1
 			logEntries = append(logEntries, entry)

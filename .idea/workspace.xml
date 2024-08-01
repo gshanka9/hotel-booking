@@ -18,6 +18,9 @@
     </option>
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.windows-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,6 +37,7 @@
     "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build hotel_booking.executor": "Run",
     "Go Build.go build hotel_booking/microservice.executor": "Run",
+    "Go Build.go build hotel_booking/processor_log.go (1).executor": "Run",
     "Go Build.go build hotel_booking/processor_log.go.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -54,7 +58,7 @@
       <recent name="C:\Users\gshanka9\Desktop\hotel_booking\microservice" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build hotel_booking/processor_log.go">
+  <component name="RunManager" selected="Go Build.go build hotel_booking/processor_log.go (1)">
     <configuration name="go build hotel_booking" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hotel_booking" />
       <working_directory value="$PROJECT_DIR$" />
@@ -73,6 +77,15 @@
       <filePath value="$PROJECT_DIR$/microservice/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build hotel_booking/processor_log.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="hotel-booking" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="hotel_booking/processor_log.go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/processor_log.go/logprocessing.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build hotel_booking/processor_log.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="hotel_booking" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build hotel_booking/processor_log.go (1)" />
         <item itemvalue="Go Build.go build hotel_booking/processor_log.go" />
         <item itemvalue="Go Build.go build hotel_booking/microservice" />
         <item itemvalue="Go Build.go build hotel_booking" />
