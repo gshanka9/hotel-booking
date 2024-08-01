@@ -17,8 +17,8 @@ func CreateCustomerHandler(logger *logrus.Logger) http.HandlerFunc {
 		}
 
 		var customer model.Customer
-		if err := json.NewDecoder(r.Body).Decode(&customer); err != nil {
-			utility.LogWithStack(logger, err)
+		if errr := json.NewDecoder(r.Body).Decode(&customer); errr != nil {
+			utility.LogWithStack(logger, errr)
 			http.Error(w, "Bad request", http.StatusBadRequest)
 			return
 		}
