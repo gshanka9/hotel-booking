@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.MuiSwitch-track {
+  background-color: #ffa500 !important; /* Optum orange for switch */
+}
+
+.MuiSnackbar-root {
+  bottom: 20px;
+}
